@@ -1,0 +1,60 @@
+.cardContentContainer {
+    overflow: hidden;
+}
+
+.activeCardTitle {
+    transform: translateY(30px);
+    transition: height 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.activeCardDescription {
+    transform: translateY(30px);
+    transition: height 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.activeTitleBorder {
+    transform: translateY(30px);
+    transition: height 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.cardTitle {
+    transform: translateY(30px);
+    transition: height 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.card:hover .cardTitle {
+    transform: translateY(0);
+}
+
+.titleBorder {
+    transform: translateY(30px);
+    transition: height 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.card:hover .titleBorder {
+    transform: translateY(0);
+}
+
+.cardDescription {
+    /* opacity: 0; */
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.card:hover .cardDescription {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card {
+    transition: background-color 0.6s ease-in-out;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.171) 20%,
+            rgba(3, 3, 68, 0.815) 80%);
+    opacity: 1;
+}
+
+.card:hover {
+    background-color: none;
+    opacity: 0.9;
+}

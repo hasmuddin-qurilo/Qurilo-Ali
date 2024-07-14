@@ -1,0 +1,5 @@
+export const taglineit = "Cloud Computing Service"
+export const taglineind = "Travel App & Software Development Services"
+export const taglinetravelsol= "Our Best-in-Class Travel App Development Solutions"
+export const taglinetrvdev= "Travel Application Development Services We Offer"
+export const taglinetrvtech="Advanced Technologies We Use"

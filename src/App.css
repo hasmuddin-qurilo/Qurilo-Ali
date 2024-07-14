@@ -1,0 +1,8 @@
+Button:hover div span {
+    color: white;
+}
+
+Button:hover .mybutton {
+    color: white;
+    /* background-color: #558BDC !important; */
+}
