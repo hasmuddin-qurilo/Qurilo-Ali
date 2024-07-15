@@ -1,11 +1,11 @@
 import React from "react";
 import { SlArrowRight } from "react-icons/sl";
 
-export default function TechIndCard({ Data }) {
+export default function TechIndCard({ data }) {
   return (
     <>
       <div className="flex items-center xl:justify-center  gap-10 lg:gap-20 flex-wrap mt-10 ml-8 mb-5 lg:mb-10">
-        {Data.map((item, index) => (
+        {data.map((item, index) => (
           <div
             key={index}
             className="flex flex-col gap-5 mb-5 lg:mb-10 w-80 lg:w-72 xl:w-80"

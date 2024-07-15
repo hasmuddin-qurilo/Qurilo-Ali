@@ -8,7 +8,7 @@ export default function Industry({ Data }) {
         {Data.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col gap-5 mb-5 lg:mb-10 w-80 lg:w-72 xl:w-80"
+            className="flex flex-col gap-5 mb-5 lg:mb-5 w-80 lg:w-72 xl:w-80"
           >
             <p className="border-[2px] border-blue"></p>
             <div className="flex flex-col gap-2 lg:gap-4">

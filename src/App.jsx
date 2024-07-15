@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <ItService />
+        {/* <ItService /> */}
         <Industry />
       </div>
     </>

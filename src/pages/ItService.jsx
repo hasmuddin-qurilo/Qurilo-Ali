@@ -23,7 +23,7 @@ export default function ItService() {
         <Home data={first} tagline={taglineit} />
         <Services data={cardData} title={cloud} para={para1} />
         <MaxRoi data={Secound} />
-        <Solution />
+        {/* <Solution /> */}
         <TechWeWork data={TechCard} title={Tech} para={para2} type="true" />
         <Growth midBannerData={midBannerData1} type="Ali" data={Third} />
         <Industries />

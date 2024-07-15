@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { faqData } from "../../Data/IT/FAQData";
 import { IoMdAdd } from "react-icons/io";
 import { HiMinus } from "react-icons/hi";
 import Title from "../../components/Faq/List";
-const TravelFAQ = () => {
+const TravelFAQ = ({ faqData }) => {
   const [activeIndex, setActiveIndex] = useState(null);
   return (
     <div className="my-10">

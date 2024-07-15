@@ -14,7 +14,7 @@ const Services = ({ data, type }) => {
                 {card.heading}
               </h3>
             </div>
-            <p className="border-[2px] border-blue mt-4 mb-2"></p>
+            <p className="border-[2px] border-blue mt-4 mb-2"></p>     
 
             <p className=" leading-7 font-sans text-gray-500 mb-5 dark:text-gray-400">
               {card.description}

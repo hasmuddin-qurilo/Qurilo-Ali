@@ -12,7 +12,7 @@ export default function Solution() {
           <SolPara />
         </div>
         <div className="ml-8 lg:w-1/2 lg:mt-8 lg:mb-20 ">
-          <Awrad />
+          <Awrad /> 
         </div>
       </div>
     </>

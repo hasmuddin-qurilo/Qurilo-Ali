@@ -109,7 +109,7 @@ const Industries = () => {
                 }  group py-4 h-[35rem] cursor-pointer ${
                   isMobile && "border-none"
                 } border-r-[1px] border-white `}
-                onMouseEnter={() => handleMouseEnter(card.imageUrl)}
+                onMouseEnter={() =>  handleMouseEnter(card.imageUrl)}
                 onMouseLeave={() => handleMouseLeave()}
               >
                 <div
